@@ -31,8 +31,8 @@ import AccordionFunction from './AccordionFunction';
       return (
         <div className="accordion-item">
         <div key={index} className="accordion">
-            {accordionData.map(({ title, content, index }) => (
-              <AccordionFunction  title={title} content={content} />
+             {accordionData.map(({ title, content }, i) => (
+              <AccordionFunction  title={title} content={content} key={i+'accordian'} />
             ))}
           </div>
       </div>
