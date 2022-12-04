@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-export const CompanyIntro = () => {
+const CompanyIntro = () => {
     return (
         <div className='w-full  '>
             <div >
@@ -139,3 +139,4 @@ export const CompanyIntro = () => {
         </div>
     )
 } 
+export default CompanyIntro;
