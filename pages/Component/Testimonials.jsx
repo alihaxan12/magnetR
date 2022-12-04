@@ -2,7 +2,7 @@ import React from 'react'
 
 import Image from 'next/image'
 
-export const Testimonials = () => {
+const Testimonials = () => {
     return (
         <div className='w-full'>
             <div className='bg-[#E5E5E5]'>
@@ -26,3 +26,4 @@ export const Testimonials = () => {
         </div>
     )
 }
+export default Testimonials;
