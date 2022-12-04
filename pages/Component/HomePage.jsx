@@ -5,7 +5,7 @@ import  Footer  from './Footer'
 import Hero from './Hero'
 import { Testimonials } from './Testimonials'
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <div>
         <Hero/>
@@ -16,3 +16,4 @@ export const HomePage = () => {
     </div>
   )
 }
+export default HomePage;
